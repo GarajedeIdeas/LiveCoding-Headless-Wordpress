@@ -1,0 +1,43 @@
+.App {
+  padding: 20px;
+}
+
+.Testimonial-Container{
+  padding: 50px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Testimonial-Element{
+  height: auto;
+  width: 500px;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 3%;
+  background-color: #fff5e8;
+  color: black;
+}
+
+.Testimonial-Element > h2{
+  font-size: 20px;
+}
+
+.Testimonial-Element > p {
+  font-size: 20px;
+}
+
+.testimonial-img{
+  height: 100px;
+  border-radius: 50%;
+}
+
+
+
+
+
