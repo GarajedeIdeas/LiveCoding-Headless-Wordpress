@@ -14,7 +14,7 @@ function Testimonial_Element({id_media, title, content}){
                 id_media = 7;
             }
 
-            const endpoint = 'http://localhost:8888/wp-json/wp/v2/media/' + id_media;
+            const endpoint = 'http://apidev.juliancampos.es/wp-json/wp/v2/media/' + id_media;
             const response = await fetch(endpoint);
             
             if (response.ok) {

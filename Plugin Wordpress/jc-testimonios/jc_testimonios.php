@@ -1,13 +1,13 @@
 <?php
-/*
-    Plugin Name: Testimonios - Julián Campos
-    Plugin URI: https://juliancampos.es
-    Description: Añade los testimonios de tus clientes a tu web
-    Version: 1.0.0
-    Author: Julián Campos Pérez
-    Author URI: https://juliancampos.es
-    Text Domain: juliancampos
-*/
+	/*
+		Plugin Name: Testimonios - Julián Campos
+		Plugin URI: https://juliancampos.es
+		Description: Añade los testimonios de tus clientes a tu web
+		Version: 1.0.0
+		Author: Julián Campos Pérez
+		Author URI: https://juliancampos.es
+		Text Domain: juliancampos
+		*/
 
 //Funcion que tiene Wordpress para que no todo el mundo pueda acceder a este archivo a través de la URL
 
@@ -77,6 +77,5 @@ function jc_testimonios_post_type() {
 }
 add_action( 'init', 'jc_testimonios_post_type', 0 );
 
-
-//Testimonios: http://localhost:8888/wp-json/wp/v2/testimonios
+//Testimonios: http://apidev.juliancampos.es/wp-json/wp/v2/testimonios
 //Imagen destacada: http://localhost:8888/wp-json/wp/v2/media/7 (el id)

@@ -9,7 +9,7 @@ function Testimonial_Container(){
       const fetchTestimonials = async () => {
         try {
           // Realiza una solicitud GET a la API de WordPress
-          const response = await fetch('http://localhost:8888/wp-json/wp/v2/testimonios');
+          const response = await fetch('http://apidev.juliancampos.es/wp-json/wp/v2/testimonios');
           
           // Verifica si la solicitud fue exitosa
           if (response.ok) {
